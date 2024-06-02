@@ -1,32 +1,100 @@
-.Leaders-section{
+.Leaders-section {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    row-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    grid-auto-rows: auto; 
+    row-gap: 0.5rem;
     justify-items: center;
-    padding: 1rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+
+}
+
+.leader-description{
+    text-align: center;
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.leader-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid gray;
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 250px; 
+    background-color: white;
+}
+
+.leader-img {
+    width: 100%;
+    height: 300px; 
+    border: 1px solid gray;
+    overflow: hidden;
+    display: block;
+    border-radius: 10px;
     
 }
 
-.leader-details{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 25rem;
-    border: 1px solid gray;
-}
-
-.leader-img{
-    height: 30rem;
-
-}
-
-.div-img{
+.div-img {
     width: 100%;
     height: 100%;
     display: block;
     object-fit: cover;
+    object-position: top;
+}
+
+.leader-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    background-color: skyblue;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+}
+
+.leader-full-name {
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+
+.leader-role {
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    line-height: 1.5rem;
+    text-align: center;
+    border: 1px solid gray;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
 
 }
+
+.leader-bio {
+    font-family: var(--secondary-font);
+    font-weight: 300;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .Leaders-section {
+        grid-template-columns: 1fr; 
+    }
+    .leader-details{
+        max-width: 380px;
+    }
+}
+
 
 

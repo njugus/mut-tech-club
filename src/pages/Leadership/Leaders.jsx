@@ -6,8 +6,16 @@ import './leaders.css';
 function Leadership() {
     return (
         <React.Fragment>
+            <section>
+                
+            <div className="leader-description">
+                    <h1>Mut Tech Club is Led by A team of Professionals</h1>
+
+                </div>
+            </section>
            
             <section className="Leaders-section">
+
                 {leaders.map((currentLeader, i) => (
                     <Leader 
                         key={i}
