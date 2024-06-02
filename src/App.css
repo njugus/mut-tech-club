@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Reddit+Sans+Condensed:wght@200..900&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Reddit+Sans+Condensed:wght@200..900&family=Shadows+Into+Light&display=swap');
+
+
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+:root{
+    --primary-font: "Average Sans", sans-serif;
+    --secondary-font: "Public Sans", sans-serif;
+}
+
+body{
+  background-color:  rgb(207, 203, 203);
+}
+
+
+
+

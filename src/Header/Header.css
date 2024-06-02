@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Reddit+Sans+Condensed:wght@200..900&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Reddit+Sans+Condensed:wght@200..900&family=Shadows+Into+Light&display=swap');
+
+.main-heading{
+    font-family: var(--primary-font);
+    font-size: 25px;
+    font-weight: bolder;
+  }
+
+.main-header{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.navbar{
+    margin: 1.5rem auto;
+
+}
+
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+    padding: 0.5rem;
+    background-color: white;
+    font-family: var(--primary-font);
+    font-weight: 600;
+}
+
+@media  screen and (max-width : 37.5rem) {
+    .main-header{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media  screen and (max-width : 23.75rem){
+    .nav-list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+  
