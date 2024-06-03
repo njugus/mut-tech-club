@@ -1,7 +1,7 @@
 import "./Tracks.css";
 import track from "../../assets/cybersecurity.jpg";
 import design from "../../assets/ui design.jpg";
-import web from "../../assets/WEBDEV.jpg";
+import web from "../../assets/web devvvv.jpg";
 import app from "../../assets/mobile app dev.jpg";
 import cloud from "../../assets/cloud engineering.jpg";
 import power from "../../assets/power platform.jpg";

@@ -1,9 +1,10 @@
 import './Events.css'
 
+
 function Events() {
     return (
         <>
-                    <div className="event-heading">
+            <div className="event-heading">
                 <h1 className='Main-event-heading'>
                     Events
                 </h1>
@@ -91,7 +92,6 @@ function Events() {
 
 
         </section>
-
 
         </>
     )
