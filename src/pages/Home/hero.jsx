@@ -15,7 +15,11 @@ function Hero() {
             <div className="overlay">
                 <h1>Welcome To MUT Tech Club</h1>
                 
+                
             </div>
+
+
+            
 
         </section>
 

@@ -5,12 +5,24 @@
     font-family: var(--primary-font);
     font-size: 25px;
     font-weight: bolder;
+    color: #ff005a;
+    text-align: center;
+    text-shadow: 
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000,
+        0 0 5px rgba(0, 0, 0, 0.6),
+        0 0 10px rgba(0, 0, 0, 0.6),
+        0 0 15px rgba(0, 0, 0, 0.6),
+        0 0 20px rgba(0, 0, 0, 0.6);
+    margin-top: 0.5rem;
+    line-height: 1.2;
   }
 
 .main-header{
     display: flex;
     justify-content: space-around;
-    border: 1px solid gray;
     background-color: white;
     border-radius: 10px;
 }

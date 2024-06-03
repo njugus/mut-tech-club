@@ -14,12 +14,30 @@
     gap: 1rem;
     background-color: white;
     padding: 10px;
+}
 
+@media screen  and (max-width : 37.5rem){
+    .track-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
 
+    .track-image{
+        width: 100%;
+    }
+
+    .topics{
+        width: 100%;
+    }
+    
+    .learning-outcomes{
+        width: 100%;
+    }
 }
 
 .track-image{
     width: 29%;
+    max-width: 100%;
     border-radius: 10px;
 
 }
@@ -39,6 +57,7 @@
     padding: 30px;
     background-color: skyblue;
     border-radius: 10px;
+    max-width: 100%;
 }
 
 .learning-outcomes{
@@ -47,6 +66,7 @@
     padding: 30px;
     background-color: skyblue;
     border-radius: 10px;
+    max-width: 100%;
 }
 
 .Track-main-heading{
