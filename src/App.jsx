@@ -8,6 +8,8 @@ import Events from './pages/Events/Events'
 import Tracks from './pages/Tracks/Tracks'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Leadership from './pages/Leadership/Leaders'
+import Footer from './Footer/Footer'
+
 
 
 
@@ -25,9 +27,9 @@ function App() {
       <Route path = '/Leadership' element = {<Leadership/>}/>
       <Route path = '/Tracks' element = {<Tracks/>}/>
     </Routes>
+    
     </BrowserRouter>
-   
-  
+    
     </>
 
   )

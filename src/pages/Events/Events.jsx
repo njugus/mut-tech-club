@@ -1,4 +1,5 @@
 import './Events.css'
+import Footer from '../../Footer/Footer';
 
 
 function Events() {
@@ -92,6 +93,7 @@ function Events() {
 
 
         </section>
+        
 
         </>
     )
