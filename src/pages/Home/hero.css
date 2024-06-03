@@ -7,6 +7,20 @@
     margin-top: 1rem;
 }
 
+.her-heading{
+  text-shadow: 
+  -1px -1px 0 #000,  
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000,
+  0 0 5px rgba(0, 0, 0, 0.6),
+  0 0 10px rgba(0, 0, 0, 0.6),
+  0 0 15px rgba(0, 0, 0, 0.6),
+  0 0 20px rgba(0, 0, 0, 0.6);
+margin-top: 0.5rem;
+line-height: 1.2;
+}
+
 
 .hero-img {
     border: 2px solid gray;
@@ -40,5 +54,14 @@
     overflow: hidden;
     font-family: var(--secondary-font);
     border-radius: 5px;
+    text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000,
+    0 0 5px rgba(0, 0, 0, 0.6),
+    0 0 10px rgba(0, 0, 0, 0.6),
+    0 0 15px rgba(0, 0, 0, 0.6),
+    0 0 20px rgba(0, 0, 0, 0.6);
     
   }
